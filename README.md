@@ -1,6 +1,9 @@
 # docker-pentaho-data-integration
 Pentaho data integration kettle as gui application inside a docker container
 
+## Docker Hub
+https://hub.docker.com/r/bryanfreire/pentaho-data-integration
+
 ## Build
 ```
 docker build -t pdi:8.3 .
