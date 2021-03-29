@@ -5,7 +5,7 @@ ARG MYSQL_DRIVER=https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-ja
 
     # Update system
 RUN apt-get update && \
-    apt-get install -yqq libwebkitgtk-1.0-0 libswt-gtk-3-jni && \
+    apt-get install -yqq libwebkitgtk-1.0-0 libswt-gtk-3-jni lsb-release && \
 
     # Get files
     wget --progress=dot:giga -O /tmp/pdi-ce.zip $PDI && \
